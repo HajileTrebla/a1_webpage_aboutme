@@ -4,7 +4,7 @@ body{
 
 .parallax{
     background: url('../assets.img/punpun_cover_2.jpg');
-    height: 466px;
+    height: 620px;
     
     padding: 3% 0 3% 0;
     background-attachment: fixed;
@@ -13,9 +13,9 @@ body{
     background-size: cover;
 }
 
-.container-1{
+.cont{
     background: url('../assets.img/eli_cover_1.png');
-    height: 500px;
+    height: 980px;
    
     padding: 1% 0 1% 0;
     background-attachment: fixed;
@@ -68,4 +68,5 @@ h2 span{
 .GBAR{
     background-color: gray;
     height: 300px;
+    padding: 2% 30% 2% 30%;
 }
