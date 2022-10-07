@@ -1,0 +1,71 @@
+body{
+    height: 100%;
+}
+
+.parallax{
+    background: url('../assets.img/punpun_cover_2.jpg');
+    height: 466px;
+    
+    padding: 3% 0 3% 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-1{
+    background: url('../assets.img/eli_cover_1.png');
+    height: 500px;
+   
+    padding: 1% 0 1% 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: gray;
+    font-size: 3em;
+    padding: 2%;
+    text-align: center;
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+h1 span{
+    color: purple;
+    font-size: 1.5em; 
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 0.5%;
+}
+
+h2{
+    color: purple;
+    font-size: 3em;
+    padding: 2%;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h2 span{
+    color: gray;
+    padding: 1%;
+}
+
+.whiteopac{
+    background-color: black;
+    opacity: 0.8;
+}
+
+.cover{
+    height: 400px;
+}
+
+.Header{
+    height: 250px;
+}
+
+.GBAR{
+    background-color: gray;
+    height: 300px;
+}
