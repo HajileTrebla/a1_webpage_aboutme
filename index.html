@@ -9,10 +9,11 @@
     <title>About Me: Lab 1</title>
 </head>
 <body>
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><img src="./assets.img/arrowup.png" alt="" style="height:30px"></button>
     <div class="parallax">
     <div class="spacer-large"></div>
         <div class="whiteopac">
-            <h1>Albert <span>Eli</span>jah Quinio</h1>
+            <h1>Albert <span class='label1'></span>jah Quinio</h1>
         </div>
     <div class="spacer-small"></div>
         <div class="whiteopac">
@@ -114,7 +115,7 @@
     </div>
 
     <div class="GBAR">
-        <h1><span>G</span> A <span>LL</span> E <span>R</span> Y</h1>
+        <h1><span class='hl'>G</span> A <span class='hl'>LL</span> E <span class='hl'>R</span> Y</h1>
     </div>
 
     <div class="cont3" style="background-image: url('./assets.img/towers_cover_1.png'); padding: 10% 5% 10% 5%;">
@@ -158,8 +159,27 @@
 
     <div class="parallax" style="height:1000px"></div>
     <div class="GBAR">
-        <h1>~<span>T</span>HAN<span>K</span> <span>Y</span>O<span>U</span>~</h1>
+        <h1>~<span class='hl'>T</span>HAN<span class='hl'>K</span> <span class='hl'>Y</span>O<span class='hl'>U</span>~</h1>
     </div>
 
 </body>
 </html>
+
+<script>
+    let mybutton = document.getElementById("topBtn");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    } 
+</script>
