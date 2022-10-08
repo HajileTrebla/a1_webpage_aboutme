@@ -2,7 +2,7 @@ body{
     height: 100%;
 }
 
-.parallax{
+.mainbg{
     background: url('../assets.img/punpun_cover_2.jpg');
     height: 620px;
     
@@ -48,7 +48,7 @@ body{
 }
 
 h1{
-    color: gray;
+    color: white;
     font-size: 3em;
     padding: 2%;
     text-align: center;
@@ -75,7 +75,6 @@ h1 .hl{
 }
 
 h2{
-    color: purple;
     font-size: 3em;
     padding: 2%;
     text-align: center;
@@ -83,12 +82,11 @@ h2{
 }
 
 h2 span{
-    color: gray;
     padding: 1%;
 }
 
 h3{
-    color: gray;
+    color: white;
     padding: 1%;
     text-align: center;
 }
@@ -105,6 +103,7 @@ h4{
 p span{
     font-weight: bold;
 }
+
 
 .whiteopac{
     background-color: black;
@@ -152,5 +151,5 @@ p span{
 
 
 #topBtn:hover {
-  background-color: #555;
+  background-color: white;
 }
