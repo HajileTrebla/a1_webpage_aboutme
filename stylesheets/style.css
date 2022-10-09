@@ -4,7 +4,7 @@ body{
 
 .mainbg{
     background: url('../assets.img/punpun_cover_2.jpg');
-    height: 620px;
+    min-height: 620px;
     
     padding: 3% 0 3% 0;
     background-attachment: fixed;
@@ -16,15 +16,21 @@ body{
 .cont1{
     background-image: url('../assets.img/eli_cover_1.png');
    
-    padding: 5% 50% 1% 30%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.cont1 .card{
+    top: 80%;
+    left: 50%;
+    transform:translate(-50%, 0%);
+    opacity: 0.8;
+}
+
 .cont2{
-    height: 480px;
+    min-height: 480px;
 
     opacity: 0.8;
 
@@ -39,7 +45,7 @@ body{
 }
 
 .cont3{
-    height: 500px;
+    min-height: 500px;
    
     background-attachment: fixed;
     background-position: center;
@@ -111,20 +117,20 @@ p span{
 }
 
 .spacer-large{
-    height: 400px;
+    min-height: 400px;
 }
 
 .spacer-small{
-    height: 100px;
+    min-height: 100px;
 }
 
 .spacer-medium{
-    height: 250px;
+    min-height: 250px;
 }
 
 .GBAR{
     background-color: black;
-    height: 200px;
+    height: 20%;
     padding: 2% 0 2% 0;
 }
 
@@ -132,6 +138,7 @@ p span{
     float: left;
     padding: 3%;
 }
+
 
 #topBtn {
   display: none;
@@ -143,10 +150,20 @@ p span{
   outline: none;
   background-color: gray;
   cursor: pointer;
-  padding: 15px;
   border-radius: 10px;
+  padding: 0.5%;
   font-size: 18px;
   opacity: .8;
+}
+
+#topBtn:after{
+    display: block;
+    padding-bottom:100%
+}
+
+#topBtn img{
+    top: 100%;
+    left: 100%;
 }
 
 
